@@ -1,0 +1,265 @@
+
+
+/*   SECTION 1   /////////////////////////////////////////////////////////////////*/
+
+
+.section1-container{
+    background: linear-gradient(20deg , pink 25%, white 45%, pink 25%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1cm 0px;
+}
+
+/* LEFT 1 */
+
+.section1-left{
+    width:40%;
+}
+.section1-left>ul{
+    width:9cm;
+    height:12cm;
+    margin:auto;
+}
+.section1-left>ul>img{
+    width:100%;
+    height:100%;
+}
+
+
+/* RIGHT */
+.section1-right{
+    width:60%;    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.section1-right>h1{
+    font-size:calc(1vw + 19px);
+    color:white;
+    text-shadow: 2px 2px 12px black;
+    font-family: 'Fredoka One', cursive;
+    padding:0px 20px;
+}
+.section1-right>p{
+    font-size:calc(1vw + 7px);
+    padding:0px 20px;
+}
+
+.section1-right>img{
+    width:11cm;
+    height:6cm;
+    border-radius:100%;
+}
+
+
+/*   VENTAS IMAGEN   /////////////////////////////////////////////////////////////////*/
+
+.ventas-super-container{
+    margin-top:1cm;
+    background:rgba(155, 74, 131, 0.377); 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:1cm 0px;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+}
+
+.ventas-img-container{
+    width:7cm;
+    height:5cm;
+    border:2px solid rgb(255, 255, 255);
+    border-radius:100%;
+    background:rgba(255, 255, 255, 0.712);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.ventas-img-container>img{
+    width:80%;
+    height:80%;
+}
+
+/*titulo venta*/
+.titulo-venta{
+    color:white;
+    font-size:calc(1vw + 18px);
+    margin-top:1cm;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: 'Ultra', serif;
+    text-shadow:2px 2px 12px white;
+}
+
+/*   ROPA VENTA   /////////////////////////////////////////////////////////////////*/
+
+
+
+.ropa-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ropa-container>li{
+    padding:45px 1cm;
+    height:13cm;
+}
+.ropa-container>li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.ropa-container>li>a{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+}
+.ropa-container>li>a>img{
+    height:10cm;
+    width:4.5cm;
+    position:relative;
+    border-radius: 35px;
+}
+.ropa-container>li>a>h1{
+    padding-top:10px;
+    font-size: calc(1vw + 7px);
+    color:white;
+    text-shadow: 2px 2px 12px black;
+    font-family: 'Fredoka One', cursive;
+}
+.ropa-container>li>a>p{
+    width:100%;
+    box-shadow: 5px 10px 15px black;
+    border:1px solid white;
+    background:rgba(255, 255, 255, 0.384);
+    border-radius: 15px;
+    font-size: calc(1vw + 5px);
+    padding:2px;
+    color:black;
+    text-align:center;
+    font-family: 'Fredoka One', cursive;
+}
+
+/*   DISEÑOS ESPECIALES   /////////////////////////////////////////////////////////////////*/
+/* flechas */
+
+.flechas-diseños-especiales{
+    position:relative;
+    top:-7cm;
+    height:2cm;
+    width:100%;
+    z-index:3;
+}
+.flechas-diseños-especiales>li{
+    position:relative;
+    width:20cm;
+    margin:auto;
+    z-index:3;
+}
+.flecha-derecha-especiales{
+    position:absolute;
+    right:3cm;
+}
+.flecha-izquierda-especiales{
+    position:absolute;
+    left:3cm;
+}
+.flechas-diseños-especiales>li>i{
+    padding:20px;
+    font-size: 25px;
+    background:rgba(105, 49, 122, 0.603);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.diseños-especiales-container{
+    width:95%;
+    height:12cm;
+    position:relative;
+    top:2cm;
+    margin:auto;
+    border-radius:15px;
+    background:url(../../imagenes/Relleno/relleno5.jpg);
+    background-size: 100% 100%;
+}
+.diseños-especiales-container>h1{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    background:rgb(74, 30, 87);
+    border-radius:15px;
+    padding:0.5cm;
+    margin-bottom:1cm;
+    font-size: calc(1vw + 18px);
+    font-family: 'Fredoka One', cursive;
+    text-shadow:2px 2px 12px white;
+}
+
+.slider-ropa-especial{
+    width:11cm;
+    margin:auto;
+    overflow: hidden;
+    position:relative;
+    z-index:99;
+}
+.slider-ropa-especial>ul{
+    position:relative;
+    display:flex;
+    width:165%;
+    overflow: hidden;
+    z-index:99;
+}
+.slider-ropa-especial>ul>li{
+    border-radius: 25px;
+}
+.vestidos-especiales{
+    padding:8px;
+    margin:5px;
+    background:rgba(255, 255, 255, 0.733);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    z-index:99;
+}
+.vestidos-especiales>a{
+    text-decoration: none;
+    z-index:99;
+}
+.vestidos-especiales>a>img{
+    border-radius: 25px;
+    width:3cm;
+    height:6cm;
+    z-index:99;
+}
+.vestidos-especiales>a>h1{
+    font-size:calc(1vw + 5px);
+    padding-left: 10px;
+    padding-top: 10px;
+    color:white;
+    text-shadow:2px 2px 12px black;
+}
+.vestidos-especiales>a>p{
+    font-size:calc(1vw + 4px);
+    padding-left: 10px;
+    box-shadow: 5px 10px 15px black;
+    border:1px solid white;
+    color:black;
+}
+
+
+
+
+    /*   DISEÑOS ESPECIALES2   /////////////////////////////////////////////////////////////////*/
+
+.diseños-especiales-container2{
+    display:none;
+}

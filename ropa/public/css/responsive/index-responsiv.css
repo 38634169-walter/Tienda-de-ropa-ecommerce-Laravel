@@ -1,0 +1,279 @@
+
+@media all and (max-width:800px){
+
+    
+    /*   SLIDER-PORTADA   /////////////////////////////////////////////////////////////////*/
+    .slider{
+        width:100%;
+        height:8cm;
+        margin-top:0;
+        border-radius: 0;
+    }
+    .slider>ul>li>h1{
+        font-size: calc(1vw + 10px);
+    }
+    .slider>ul>li>p{
+        padding-top:0.5cm;
+        font-size: calc(1vw + 9px);
+    }
+
+
+    /* S1 */
+    .s1>ul{
+        width:7cm;
+        height:4cm;
+        top:1cm;
+        left:1cm;
+    }
+    .slider>ul>li>img{
+        width:5cm;
+        height:3cm;
+        left:0cm;
+        top:3.3cm;
+    }
+
+    /* S2 */
+
+    .s2>ul{
+        width:6cm;
+        height:5cm;
+        border-radius:15px;
+        top:0.2cm;
+        left:9px;
+    }
+    .s2>ul>li>h1{
+        margin-top:0.5cm;
+        font-size: calc(1vw + 9px);
+        padding:0px 15px;
+    }
+    .s2>ul>li>p{
+        margin-top:1cm;
+        font-size: calc(1vw + 7px);
+    }
+    #sin-fondo-portada2>img{
+        margin-top:-1cm;
+    }
+
+    /* S3 */
+
+    .s3>ul{
+        width:5cm;
+        height:7.5cm;
+        left:0;
+        top:0;
+    }
+    
+    .s3>ul>li>h1{
+        font-size: calc(1vw + 9px);
+    }
+    
+    .s3>ul>li>p{
+        margin-top:1.5cm;
+        font-size: calc(1vw + 8px);
+    }
+
+    /* S4 */
+
+    .s4>ul{
+        width:5cm;
+        height:5cm;
+        top:0;
+        left:1cm;
+        
+    }
+    .s4>ul>li>h1{
+        font-size: calc(1vw + 9px);
+    }
+    .s4>ul>li>p{
+        font-size: calc(1vw + 8px);
+    }
+    #sin-fondo-portada4>img{
+        width:4cm;
+        height:2cm;
+        margin-top:0cm;
+    }
+
+    /*PAGINACION*/
+
+    .paginacion{
+        width:4cm;
+        height:0.5cm;
+    }
+    .paginacion>ul{
+        top:-0.3cm;
+    }
+    .paginacion>ul>li{
+        width:0.4cm;
+        height:0.4cm;
+    }
+
+    /* FLECHAS */
+
+    .flecha-derecha{
+        right:1cm;
+    }
+    .flecha-izquierda{
+        left:1cm;
+    }
+    .flechas-slider>li>i{
+        padding:5px;
+    }
+
+
+    /*   SECTION 1   /////////////////////////////////////////////////////////////////*/
+    
+    .section1-container{
+        margin-top:-1.3cm;
+        flex-direction:column;
+    }
+
+    .section1-container>div{
+        margin:0cm;
+    }
+
+    /* LEFT 1 */
+    
+    .section1-left{
+        width:100%;
+    }
+    .section1-right{
+        width:100%;
+    }
+    /* RIGHT */
+
+    .section1-right>h1{
+        font-size:calc(1vw + 22px);
+    }
+    .section1-right>p{
+        font-size:calc(1vw + 11px);
+    }
+    .section1-right>img{
+        width:9cm;
+        height:5cm;
+    }
+
+
+    /*   ROPA VENTA   /////////////////////////////////////////////////////////////////*/
+
+    .ropa-container>li>a>h1{
+        font-size: calc(1vw + 17px);
+    }
+    .ropa-container>li>a>p{
+        font-size: calc(1vw + 15px);
+    }
+
+}
+
+
+
+
+@media all and (max-width:400px){
+    
+    
+    /*   SLIDER   /////////////////////////////////////////////////////////////////*/
+    
+    /* FLECHAS */
+
+    .flecha-derecha{
+        right:0.3cm;
+    }
+    .flecha-izquierda{
+        left:0.3cm;
+    }
+
+
+    /* S1 */
+
+    .s1>ul{
+        width:5cm;
+        height:6cm;
+        top:0.3cm;
+        left:0cm;
+        background:rgba(255, 255, 255, 0.575);
+    }
+
+    /* S2 */
+
+    .s2>ul{
+        width:5cm;
+        height:5cm;
+        top:2cm;
+        left:9px;
+    }
+    .s2>ul>li>p{
+        font-size: calc(1vw + 9px);
+    }
+
+    /* S3 */
+
+    .s3>ul{
+        height:5.5cm;
+        top:0.4cm;
+    }
+    
+    .s3>ul>li>h1{
+        font-size: calc(1vw + 11px);
+    }
+    
+    .s3>ul>li>p{
+        margin-top:0.8cm;
+        font-size: calc(1vw + 9px);
+    }
+
+    /* S4 */
+
+    .s4>ul{
+        top:0.3cm;
+        left:0cm;
+    }
+    .s4>ul>li>h1{
+        font-size: calc(1vw + 11px);
+    }
+    .s4>ul>li>p{
+        font-size: calc(1vw + 10px);
+    }
+    #sin-fondo-portada4>img{
+        margin-top:-0.8cm;
+    }
+
+
+    /*   SECTION 1   /////////////////////////////////////////////////////////////////*/
+    
+    
+    /* RIGHT */
+
+    .section1-right>img{
+        width:5.5cm;
+        height:3cm;
+    }
+    
+
+    /* LEFT 1 */
+
+    .section1-left>ul{
+        width: 5cm;
+        height:7cm;
+    }
+
+
+    /*   VENTAS IMAGEN   /////////////////////////////////////////////////////////////////*/
+    
+    .ventas-img-container{
+        margin-top:1cm;
+        width:5cm;
+        height:3cm;   
+    }
+
+    /*   ROPA VENTA   /////////////////////////////////////////////////////////////////*/
+
+    /*titulo venta*/
+    .titulo-venta{
+        font-size:calc(1vw + 15px);
+    }
+
+    .ropa-container>li>a>img{
+        width:4.5cm;
+        height: 9cm;
+    }
+  
+}

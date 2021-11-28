@@ -1,0 +1,110 @@
+@media all and (max-width:800px){
+
+    /*   PORTADA   /////////////////////////////////////////////////////////////////*/
+
+    .portada-trabaja{
+        border-radius:35px;
+    }
+    .portada-trabaja>h1{
+        font-size:calc(1vw + 35px);
+    }
+    .portada-trabaja>p{
+        font-size:calc(1vw + 11px);
+    }
+    
+    /*   CUERPO   /////////////////////////////////////////////////////////////////*/
+
+
+    /* texto */
+
+    .cuerpo-trabaja>li{
+        width:10cm;
+        height:4cm;
+    }
+
+    .cuerpo-trabaja>div{
+        width:90%;
+    }
+
+    .cuerpo-trabaja>div>p{
+        text-align: center;
+    }
+
+    /* formuario */
+
+    .cuerpo-trabaja>form>div{
+        flex-direction: column;
+    }
+    #curriculum{
+        font-size:calc(1vw + 13px);
+    }
+    #label-curriculum{
+        margin:5px;
+        margin-bottom:5px;
+    }
+
+
+}
+
+
+
+@media all and (max-width:400px){
+    /*   PORTADA   /////////////////////////////////////////////////////////////////*/
+    
+    .portada-trabaja{
+        padding-bottom:5px;
+    }
+    
+    .portada-trabaja>h1{
+        font-size:calc(1vw + 20px);
+    }
+    .portada-trabaja>p{
+        font-size:calc(1vw + 9px);
+        padding:0px 10px;
+    }
+    
+    
+    /*   CUERPO   /////////////////////////////////////////////////////////////////*/
+
+    /* texto */
+
+    .cuerpo-trabaja>h1{
+        margin-top:1cm;
+        font-size:calc(1vw + 25px);
+    }
+    
+    .cuerpo-trabaja>li{
+        width:5cm;
+        height:2cm;
+    }
+    .cuerpo-trabaja>div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cuerpo-trabaja>div>img{
+        float:none;
+    }
+
+    /* formuario */
+
+    .cuerpo-trabaja>form{
+        margin-top:1cm;
+    }
+
+    .cuerpo-trabaja>form>h1{
+        padding:0;
+        font-size:calc(1vw + 35px);
+    }
+
+    .cuerpo-trabaja>form>div>ul>label>input{
+        width:85%;
+        margin:auto;
+    }
+    .cuerpo-trabaja>form>div>ul>label>textarea{
+        width:90%;
+        margin:auto;
+    }
+
+}

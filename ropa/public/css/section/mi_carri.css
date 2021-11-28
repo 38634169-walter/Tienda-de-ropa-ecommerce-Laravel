@@ -1,0 +1,151 @@
+body{
+    background:rgb(221, 157, 230);
+}
+.carrito-productoss-container{
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+    padding:0.5cm;
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    background: rgba(255, 255, 255, 0.644);
+    border:1px solid white;
+    border-radius:15px;
+}
+.carrito-productoss-container>img{
+    width: 4cm;
+    height: 8cm;
+    border-radius:15px;
+}
+.carrito-productoss-container>ul{
+    margin-left:30px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:left;
+    color:black;
+}
+#quitar{
+    margin-top:5px;
+    text-align: center;
+    padding:5px 5px;
+    border-radius:15px;
+    border:2px solid black;
+    background:rgb(163, 16, 16);
+    text-decoration: none;
+    color: white;;
+}
+
+#quitar:hover{
+    background:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+.comprar-container{
+    width: 100%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(255, 255, 255, 0.452);
+    border-top:4px solid rgb(160, 43, 173);
+    border-bottom:4px solid rgb(160, 43, 173);
+    box-shadow: 5px 5px 5px black;
+}
+.comprar-container>form{
+    width: 50%;
+    padding:10px;
+}
+.comprar-container>form>li{
+    margin:auto;
+    display:grid;
+    margin:10px 0px;
+}
+.comprar-container>form>li>input{
+    padding-left:10px;
+    margin-top:-10px;
+}
+#btn-pago-container{
+    width:90%;
+    margin:auto;
+    margin-top:1cm;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background:white;
+}
+#btn-pago-container>i{
+    font-size:35px;
+    color:green;
+}
+#btn-pago-container>button{
+    width:2cm;
+    height:1cm;
+    margin-left:2cm;
+    padding:5px;
+    border:1px solid white;
+    background:rgb(14, 216, 199);
+    border-radius:5px;
+    color:white;
+    transition:all 1s;
+}
+#btn-pago-container>button:hover{
+    cursor:pointer;
+    background:rgb(0, 255, 234);
+    transform: scale(1.1);
+}
+/*
+#btn-pagado-container{
+    width:90%;
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    padding:10px;
+    color:black;
+    font-weight:bold;
+    border-radius:15px;
+    transition:all 1s;
+}
+
+#btn-pagado-debito:hover{
+    background:rgb(0, 255, 0);
+}
+*/
+@media all and (max-width:800px){
+    #btn-pago-container{
+        width:90%;
+        margin:auto;
+        margin-top:1cm;
+        padding:5px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        background: none;
+    }
+}
+@media all and (max-width:500px){
+    .carrito-productoss-container{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+    .carrito-productoss-container>ul{
+        margin-left:0px;
+    }
+}
+@media all and (max-width:300px){
+    #btn-pago-container>button{
+        margin-left:0.7cm;
+    }
+    .comprar-container>form{
+        width: 100%;
+        padding:20px;
+    }
+}

@@ -1,0 +1,124 @@
+
+
+/*   FOOTER-CONTAINER   /////////////////////////////////////////////////////////////////*/
+footer{
+    background:rgba(0, 0, 0, 0.795);
+}
+.footer-container{
+    width:100%;
+    margin-top:4cm;
+    justify-content: space-between;
+    display:flex;
+}
+.footer-container>div{
+    margin-top:1cm;
+    margin-bottom:1cm;
+    float:left;
+    width:40%;
+}
+
+/*PREGUNTAS*/
+
+.footer-preguntas{
+    position: relative;
+}
+.footer-container>div>h1{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: calc(1vw + 7px);
+    padding: 15px 0;
+}
+
+.footer-preguntas>li{
+    text-align: left;
+    width:80%;
+    margin:auto;
+    display:flex;
+}
+.footer-preguntas>li>p{
+    margin-right:5px;
+    color:rgb(82, 32, 95);
+    font-weight:bold;
+}
+.footer-preguntas>li>a{
+    color:white;
+    text-decoration:none;
+    font-size: calc(1vw + 5px);
+}
+.footer-preguntas>li>a:hover{
+    color:aquamarine;
+}
+
+/* FOOTER- REDES*/
+
+.footer-redes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.footer-redes>form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.footer-redes>form>input{
+    width:60%;
+    margin:auto;
+    margin-top:10px;
+    border-radius: 15px;
+    padding-left:10px;
+}
+.footer-redes>form>button{
+    border-radius: 15px;
+    font-size: calc(1vw + 11px);
+    cursor:pointer;
+    width:60%;
+    margin:auto;
+    margin-top:10px;
+    border-radius: 15px;
+}
+
+
+/* ICONOS */
+.footer-redes>div{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+.footer-redes>div>a{
+    margin:0px 10px;
+    text-decoration: none;
+}
+.footer-redes>div>a>i{
+    color:white;
+    border:2px solid white;
+    border-radius:35px;
+    font-size: calc(1vw + 9px);
+    padding:10px;
+    transition:all 1s;
+    cursor :pointer;
+}
+.footer-redes>div>a>i:hover{
+    transform: scale(1.8);
+}
+#facebook{
+    width:120%;
+    text-align: center;
+}
+
+/*   BOTTOM-FOOTER   /////////////////////////////////////////////////////////////////*/
+
+.bottom-text{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.87);
+    padding:10px;
+    border:2px solid rgba(255, 0, 0, 0);
+}
+.bottom-text>p{
+    margin:0;
+    color:white;
+    font-size:calc(1vw + 5px);
+}

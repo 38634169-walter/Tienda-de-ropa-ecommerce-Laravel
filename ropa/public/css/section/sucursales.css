@@ -1,0 +1,142 @@
+/*   PORTADA   /////////////////////////////////////////////////////////////////*/
+
+.portada-sucursales{
+    width:90%;
+    margin:auto;
+    padding:1cm 0px;
+    background:linear-gradient(180deg, white 30%,rgb(226, 185, 192) 90% 100%);
+    margin-top:-0.5cm;
+    text-align:center;
+    position:relative;
+    animation:portada 2s;
+}
+@keyframes portada{
+    0%{
+        margin-left:-100%;
+    }
+    100%{
+        margin-left:5%;
+    }
+}
+.portada-sucursales>h1{
+    font-size:calc(1vw + 45px);
+    font-family: 'Ultra', serif;
+    padding-top:15px;
+}
+.portada-sucursales>p{
+    font-size:calc(1vw + 7px);
+    padding:0px 20px;
+    color:white;
+    text-shadow:2px 2px 12px black;
+}
+
+/*   CUERPO   /////////////////////////////////////////////////////////////////*/
+
+.sucursales-cuerpo-container{
+    background:pink;
+    padding:2cm 0px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:2cm;
+}
+.sucursales-cuerpo-container>h1{
+    color:white;
+    font-size:calc(1vw + 55px);
+    text-shadow: 2px 2px 12px black;
+    font-family: 'Ultra', serif;
+}
+.sucursales-cuerpo-container>p{
+    color:black;
+    font-size:calc(1vw + 9px);
+    padding:20px 10px;
+}
+
+/* beneficios */
+
+.super-container-beneficios{
+    background:linear-gradient(20deg, rgba(167, 105, 167, 0.575),white);
+    border-bottom:4px solid white;
+    border-top:4px solid white;
+    margin-top:2cm;
+    padding:1cm 0px;
+}
+
+.beneficios-container{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1cm 0px;
+    margin:auto;
+}
+.beneficios-container>ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:0px 20px;    
+    width:33%;
+    margin:auto;
+    margin-top:0;
+}
+.beneficios-container>ul>img{
+    width:5cm;
+    height:5cm;
+    border-radius:100%;
+}
+.beneficios-container>ul>p{
+    font-size:calc(1vw + 9px);
+    color:white;
+    padding-top: 10px;
+    text-shadow: 2px 2px 12px black;
+}
+
+/* mapas */
+
+.nuestras-sucursales{
+    width:90%;
+    margin:auto;
+    margin-top:1cm;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.nuestras-sucursales>ul{
+    margin:20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    background:rgba(255, 255, 255, 0.521);
+    border-radius: 35px;
+    padding:20px;
+    box-shadow: 2px 2px 12px black;
+}
+.nuestras-sucursales>ul>iframe{
+    width:70%;
+    height:8cm;
+    border-radius: 35px;
+}
+.nuestras-sucursales>ul>div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    width:30%;
+}
+.nuestras-sucursales>ul>div>h1{
+    color:white;
+    text-shadow:2px 2px 12px black;
+    font-size:calc(1vw + 25px);
+}
+.nuestras-sucursales>ul>div>p{
+    color:black;
+    margin:0px 10px;
+    font-size:calc(1vw + 6px);
+}

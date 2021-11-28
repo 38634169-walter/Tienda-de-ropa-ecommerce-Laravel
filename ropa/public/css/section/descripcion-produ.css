@@ -1,0 +1,363 @@
+.producto-desc-container{
+    width:100%;
+    padding:1cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(216, 185, 219, 0.452);
+    border:2px solid white;
+}
+.producto-desc-container>ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.producto-desc-container>ul>img{
+    width: 4cm;
+    height:8cm;
+    border-radius: 15px;
+    
+}
+.producto-desc-container>ul>li{
+    margin-top:15px;
+}
+.producto-desc-container>ul>li>img{
+    width: 1cm;
+    height:2cm;
+    border-radius: 5px;
+}
+.producto-desc-container>ul>li>img:hover{
+    cursor:pointer;
+}
+.producto-desc-container>div{
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#precioProd{
+    color:white;
+    font-size:30px;
+    font-family: 'Fredoka One', cursive;
+}
+.producto-desc-container>div>form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.producto-desc-container>div>form>button{
+    padding:10px 20px;
+    background:rgb(115, 72, 126);
+    border-radius:15px;
+    color:white;
+    transition:all 1s;
+}
+.producto-desc-container>div>form>button:hover{   
+    cursor:pointer;
+    background:rgb(204, 0, 255);
+}
+.producto-desc-container>div>form>button>i{
+    margin-right:5px;    
+}
+
+.btn-aumentar-bajar{
+    width:0.8cm;
+    height:0.8cm;
+    border-radius: 5px;
+    padding:0;
+    margin:0;
+    background:rgba(151, 70, 147, 0.712);
+    color:white;
+    font-weight: bold;
+    transition: all 1s;
+}
+.btn-aumentar-bajar:hover{
+    cursor:pointer;
+    background:rgb(255, 0, 221);
+}
+#cantidad-articulo{
+    text-align:center;
+    width:0.8cm;
+    height:0.8cm;
+    padding:0;
+    margin:0;
+}
+
+
+/* SLIDER MAS PRODUCTOS /////////////////////////////////////*/
+
+.mostrar-mas-container{
+    width:95%;
+    height:12cm;
+    position:relative;
+    top:2cm;
+    margin:auto;
+    border-radius:15px;
+    background:url(../../imagenes/Relleno/relleno5.jpg);
+    background-size: 100% 100%;
+}
+.mostrar-mas-container>h1{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    background:rgb(88, 45, 97);
+    border-radius:15px;
+    padding:0.5cm;
+    margin-bottom:1cm;
+    font-size: calc(1vw + 18px);
+    font-family: 'Fredoka One', cursive;
+    text-shadow:2px 2px 12px white;
+}
+
+.slider-mostrar-mas{
+    width:19cm;
+    margin:auto;
+    overflow: hidden;
+}
+.slider-mostrar-mas>ul{
+    position:relative;
+    display:flex;
+    width:165%;
+    overflow: hidden;
+}
+.slider-mostrar-mas>ul>li{
+    border-radius: 25px;
+}
+.mostrar-mas{
+    margin:5px;
+    padding:10px;
+    background:rgba(255, 255, 255, 0.733);
+}
+.mostrar-mas:hover{
+    cursor:pointer;
+}
+.mostrar-mas>a{
+    text-decoration: none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.mostrar-mas>a>img{
+    border-radius: 25px;
+    width:3cm;
+    height:6cm;
+}
+.mostrar-mas>a>h1{
+    font-size:calc(1vw + 5px);
+    padding-left: 10px;
+    padding-top: 10px;
+    color:white;
+    text-shadow:2px 2px 12px black;
+}
+.mostrar-mas>a>p{
+    font-size:calc(1vw + 4px);
+    padding-left: 10px;
+    box-shadow: 5px 10px 15px black;
+    border:1px solid white;
+    color:black;
+}
+
+
+/* flechas */
+
+.flechas-mostrar-mas{
+    position:relative;
+    top:-7cm;
+    height:2cm;
+    width:100%;
+}
+.flechas-mostrar-mas>li{
+    position:relative;
+    width:20cm;
+    margin:auto;
+}
+.flecha-derecha-mostrar-mas{
+    position:absolute;
+    right:-1cm;
+}
+.flecha-izquierda-mostrar-mas{
+    position:absolute;
+    left:-1cm;
+}
+.flechas-mostrar-mas>li>i{
+    padding:20px;
+    font-size: 25px;
+    background:rgba(120, 40, 131, 0.603);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+/* SLIDER MAS PRODUCTOS 2 /////////////////////////////////////*/
+.mostrar-mas-container2{
+    display:none;
+}
+
+@media all and (max-width:870px){
+
+    /*   SLIDER MAS PRODUCTOS   /////////////////////////////////////////////////////////////////*/
+
+    .mostrar-mas-container{
+        display:none;
+    }
+
+    /*   SLIDER MAS PRODUCTOS 2   /////////////////////////////////////////////////////////////////*/
+    
+    /*USED*/
+    .mostrar-mas-container2{
+        width:95%;
+        position:relative;
+        top:2cm;
+        margin:auto;
+        border-radius:15px;
+        background:url(../../imagenes/Relleno/relleno5.jpg);
+        background-size: cover;
+        display:block;
+    }
+
+    .mostrar-mas-container2>h1{
+        text-align:center;
+        color:rgb(255, 255, 255);
+        background:rgb(88, 45, 97);
+        border-radius:15px;
+        padding:0.5cm;
+        margin-bottom:1cm;
+        font-size: calc(1vw + 18px);
+        font-family: 'Fredoka One', cursive;
+        text-shadow:2px 2px 12px white;
+    }
+    
+    /*USED*/
+    .slider-mostrar-mas2{
+        width:6.7cm;
+        margin:auto;
+        overflow: hidden;
+    }
+
+    .slider-mostrar-mas2>ul{
+        position:relative;
+        display:flex;
+        width:165%;
+        overflow: hidden;
+    }
+    .slider-mostrar-mas2>ul>li{
+        border-radius: 25px;
+    }
+    
+    .mostrar-mas2{
+        margin:5px;
+        background:rgba(255, 255, 255, 0.733);
+        cursor: pointer;
+    }
+    .mostrar-mas2>a{
+        text-decoration: none;
+    }
+    .mostrar-mas2>a>img{
+        border-radius: 25px;
+    }
+    .mostrar-mas2>a>h1{
+        font-size:calc(1vw + 10px);
+        padding-left: 10px;
+        padding-top: 10px;
+        color:white;
+        text-shadow:2px 2px 12px black;
+    }
+    .mostrar-mas2>a>p{
+        font-size:calc(1vw + 9px);
+        padding-left: 10px;
+        box-shadow: 5px 10px 15px black;
+        border:1px solid white;
+        color:black;
+    }
+    
+    /* flechas */
+
+    .flechas-mostrar-mas2{
+        position:relative;
+        top:-12cm;
+        height:2cm;
+        width:100%;
+    }
+
+    /*USED*/
+    .flechas-mostrar-mas2>li{
+        position:relative;
+        width:8.5cm;
+        margin:auto;
+    }
+    /*USED*/
+    .flecha-derecha-mostrar-mas2{
+        position:absolute;
+        right:0cm;
+    }
+    /*USED*/
+    .flecha-izquierda-mostrar-mas2{
+        position:absolute;
+        left:0cm;
+    }
+
+    .flechas-mostrar-mas2>li>i{
+        padding:20px;
+        font-size: 25px;
+        background:rgba(120, 40, 131, 0.603);
+        border: 2px solid white;
+        cursor: pointer;
+    }
+}
+
+
+@media all and (max-width:400px){
+    .producto-desc-container{
+        flex-direction:column;
+    }
+
+    /*SLIDER MAS PRODUCTOS */
+
+    /*SLIDER MAS PRODUCTOS 2*/
+
+    .mostrar-mas2>a>img{
+        width:4.5cm;
+        height: 9cm;
+    }
+    .mostrar-mas-container2{
+        top:1cm;
+        height:15.6cm;
+        margin-bottom:-2cm;
+    }
+    .slider-mostrar-mas2{
+        width:4.5cm;
+    }
+    .mostrar-mas2>a>h1{
+        font-size:calc(1vw + 13px);
+    }
+    .mostrar-mas2>a>p{
+        font-size:calc(1vw + 11px);
+    }
+
+    /*FLECHAS*/
+
+    .flechas-mostrar-mas2>li>i{
+        padding:5px;
+        font-size: 20px;
+    }
+    .flechas-mostrar-mas2{
+        top:-9cm;
+    }
+    /*USED*/
+    .flechas-mostrar-mas2>li{
+        width:5cm;
+    }
+    /*USED*/
+    .flecha-derecha-mostrar-mas2{
+        right:0cm;
+    }
+    /*USED*/
+    .flecha-izquierda-mostrar-mas2{
+        left:0cm;
+    }    
+}
+
+

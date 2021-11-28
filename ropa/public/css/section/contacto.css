@@ -1,0 +1,100 @@
+/*   PORTADA   /////////////////////////////////////////////////////////////////*/
+.portada-contacto{
+    width:90%;
+    margin:auto;
+    padding:1cm 0px;
+    background:linear-gradient(180deg, white 30%,rgb(226, 185, 192) 90% 100%);
+    margin-top:-0.5cm;
+    text-align:center;
+    animation:portada 2s;
+    z-index:1;
+}
+@keyframes portada{
+    0%{
+        margin-left:-100%;
+    }
+    100%{
+        margin-left:5%;
+    }
+}
+.portada-contacto>h1{
+    font-size:calc(1vw + 45px);
+    font-family: 'Ultra', serif;
+    padding-top:15px;
+}
+.portada-contacto>p{
+    font-size:calc(1vw + 7px);
+    padding:0px 20px;
+    color:white;
+    text-shadow:2px 2px 12px black;
+}
+
+/*   CUERPO   /////////////////////////////////////////////////////////////////*/
+
+.cuerpo-container-contacto{
+    padding:2cm 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background: pink;
+    margin:auto;
+    margin-top:3cm;
+    width:90%;
+    border:4px solid white;
+    border-radius:35px;
+    text-align: center;
+}
+.cuerpo-container-contacto>h1{
+    font-size:calc(1vw + 35px);
+    padding-bottom:20px;
+    color:white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.cuerpo-container-contacto>p{
+    font-size:calc(1vw + 11px);
+    padding-bottom:20px;
+    color:white;
+    padding:0px 20px;
+    text-shadow:2px 2px 12px black;
+}
+
+.cuerpo-container-contacto>form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo-container-contacto>form>label{
+    font-size: calc(1vw + 15px);
+    display:grid;
+}
+
+.cuerpo-container-contacto>form>label>input{
+    border-radius:35px;
+    height:0.8cm;
+    padding:15px;
+
+}
+.cuerpo-container-contacto>form>label>textarea{
+    border-radius:35px;
+    height:5cm;
+    padding:15px;
+}
+.cuerpo-container-contacto>form>button{
+    color:white;
+    background:plum;
+    border:9px solid white;
+    border-radius:35px;
+    padding:5px;
+    width:4cm;
+    font-size: calc(1vw + 9px);
+    cursor: pointer;
+}
+.cuerpo-container-contacto>form>button:hover{
+    color:pink;
+    background:white;
+    border:9px solid plum;
+}

@@ -1,0 +1,62 @@
+#perfil-nombre-container{
+    width:90%;
+    margin:auto;
+    margin-top:1cm;
+    padding:20px;
+    background: rgba(228, 21, 55, 0.171);
+    border-radius:15px;
+    border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil-nombre-container>h2{
+    color:black;
+}
+#perfil-nombre-container>h2>strong{
+    color:white;
+}
+#perfil-nombre-container>a{
+    margin-top:-10px;
+    margin-bottom:10px;
+    font-weight:bold;
+    font-size:25px;
+    color:rgb(184, 7, 228);
+}
+#perfil-nombre-container>form>button{
+    padding:0px 20px;
+    background:pink;
+    border: 4px solid white;
+    border-radius:15px;
+    color:white;
+    transition: all 1s;
+}
+#perfil-nombre-container>form>button:hover{
+    background:rgb(231, 97, 119);
+    border: 4px solid rgb(255, 157, 157);
+    cursor:pointer;
+}
+
+#perfil-nombre-container>form>select:hover{
+    cursor:pointer;
+}
+#perfil-nombre-container>form>select>option:hover{
+    cursor:pointer;
+}
+
+@media all and (max-width:400px){
+    #perfil-nombre-container>a{
+        font-size:20px;
+    }
+    #perfil-nombre-container>form{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    #perfil-nombre-container>form>button{
+        margin-top:10px;
+    }
+}

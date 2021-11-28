@@ -1,0 +1,78 @@
+body{
+    background:rgb(221, 157, 230);
+}
+#form-registrarse{
+    width:70%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form-registrarse>div{
+    padding:1cm 10px;
+    margin-top:1cm;
+    border-radius: 15px;
+    border:1px solid white;
+    background: rgb(177, 107, 119);
+
+}
+
+#form-registrarse>div>div{
+    width:70%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-registrarse>div>ul{
+    width:70%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-registrarse>div>div>ul>li{
+    margin:5px 20px;    
+}
+#form-registrarse>div>div>li{
+    margin:5px 20px; 
+}
+
+#form-registrarse>button{    
+    width:4cm;
+    color:white;
+    background:rgb(122, 77, 139);
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    transition: all 1s;
+}
+
+#form-registrarse>button:hover{
+    background:rgb(218, 76, 210);
+    cursor: pointer;
+}
+
+@media all and (max-width:700px){
+    #form-registrarse>div>div{
+        flex-direction: column;
+    }
+
+}
+
+@media all and (max-width:300px){
+    h2{
+        font-size: 25px;
+    }
+    #form-registrarse>div{
+        padding:0.5cm 0px;
+    }
+    #form-registrarse>div>div{
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,152 @@
+/*   PORTADA   /////////////////////////////////////////////////////////////////*/
+
+.portada-trabaja{
+    width:90%;
+    margin:auto;
+    padding:1cm 0px;
+    background:linear-gradient(180deg, white 30%,rgb(226, 185, 192) 90% 100%);
+    margin-top:-0.5cm;
+    text-align:center;
+    position:relative;
+    animation:portada 2s;
+}
+@keyframes portada{
+    0%{
+        margin-left:-100%;
+    }
+    100%{
+        margin-left:5%;
+    }
+}
+.portada-trabaja>h1{
+    font-size:calc(1vw + 45px);
+    font-family: 'Ultra', serif;
+    padding-top:15px;
+}
+.portada-trabaja>p{
+    font-size:calc(1vw + 7px);
+    padding:0px 20px;
+    color:white;
+    text-shadow:2px 2px 12px black;
+}
+
+/*   CUERPO   /////////////////////////////////////////////////////////////////*/
+
+
+/* texto */
+
+.cuerpo-trabaja{
+    background:linear-gradient(265deg ,white 10%, pink 10% 90%,white 90% 100%);
+    margin-top:1cm;
+    padding:2cm 0px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.cuerpo-trabaja>li{
+    background:url(../../imagenes/trabaja/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 22px black;
+    border-radius: 35px;
+    width:18cm;
+    height:5cm;
+}
+
+.cuerpo-trabaja>h1{
+    margin-top:2cm;
+    font-size:calc(1vw + 35px);
+    text-shadow: 2px 2px 12px black;
+    color:white;
+    font-family: 'Gorditas', cursive;
+}
+.cuerpo-trabaja>div{
+    width:60%;
+    margin:auto;
+    margin-top:1cm;
+}
+.cuerpo-trabaja>div>img{
+    width:4cm;
+    height:2cm;
+    border-radius:100%;
+    padding-right:20px;
+}
+.cuerpo-trabaja>div>p{
+    text-align: justify;
+    font-size:calc(1vw + 15px);
+}
+
+/* formuario */
+
+.cuerpo-trabaja>form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-top:2cm;
+}
+.cuerpo-trabaja>form>h1{
+    padding:20px;
+    margin-bottom:1cm;
+    font-size:calc(1vw + 55px);
+    color:white;
+    text-shadow: 2px 2px 12px rgb(0, 0, 0);
+    font-family: 'Fredoka One', cursive;
+}
+.cuerpo-trabaja>form>div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo-trabaja>form>div>ul{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.cuerpo-trabaja>form>div>ul>label{
+    display:grid;
+    padding-right:10px;
+    font-size:calc(1w + 15px);
+}
+.cuerpo-trabaja>form>div>ul>label>input{
+    padding:10px;
+    border-radius:35px;
+    height:0.9cm;
+}
+#curriculum{
+    padding:0px;
+    border-radius: 0px;
+    height:1cm;
+    font-size: calc(1vw + 5px);
+    cursor:pointer;
+}
+#label-curriculum{
+    margin:40px;
+    margin-bottom:-20px;
+}
+.cuerpo-trabaja>form>div>ul>label>textarea{
+    padding:10px;
+    height:5cm;
+    border-radius: 35px;
+}
+.cuerpo-trabaja>form>button{
+    
+    color:white;
+    background:plum;
+    border:9px solid white;
+    border-radius:35px;
+    padding:5px;
+    width:4cm;
+    font-size: calc(1vw + 9px);
+    cursor: pointer;
+}
+.cuerpo-trabaja>form>button:hover{
+    color:pink;
+    background:white;
+    border:9px solid plum;
+}
+

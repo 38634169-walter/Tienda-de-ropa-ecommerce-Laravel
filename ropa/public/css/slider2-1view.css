@@ -1,0 +1,159 @@
+
+/* USED IT'S DIFFERENT THAN THE OTHER ONE DUE TO IT'S NEEDS ANOTHER JAVASCRIPT BECAUSE OF THE AMOUNT OF CLICKS*/
+
+@media all and (max-width:870px){
+
+    /*   DISEÑOS ESPECIALES2   /////////////////////////////////////////////////////////////////*/
+
+    .diseños-especiales-container{
+        display:none;
+    }
+
+    /*USED*/
+    .diseños-especiales-container2{
+        width:95%;
+        position:relative;
+        top:2cm;
+        margin:auto;
+        border-radius:15px;
+        background:url(../../imagenes/Relleno/relleno5.jpg);
+        background-size: cover;
+        display:block;
+    }
+
+    .diseños-especiales-container2>h1{
+        text-align:center;
+        color:rgb(255, 255, 255);
+        background:rgb(74, 30, 87);
+        border-radius:15px;
+        padding:0.5cm;
+        margin-bottom:1cm;
+        font-size: calc(1vw + 18px);
+        font-family: 'Fredoka One', cursive;
+        text-shadow:2px 2px 12px white;
+    }
+    
+    /*USED*/
+    .slider-ropa-especial2{
+        width:6.7cm;
+        margin:auto;
+        overflow: hidden;
+    }
+
+    .slider-ropa-especial2>ul{
+        position:relative;
+        display:flex;
+        width:165%;
+        overflow: hidden;
+    }
+    .slider-ropa-especial2>ul>li{
+        border-radius: 25px;
+    }
+    
+    .vestidos-especiales2{
+        margin:5px;
+        background:rgba(255, 255, 255, 0.733);
+        cursor: pointer;
+    }
+    .vestidos-especiales2>a{
+        text-decoration: none;
+    }
+    .vestidos-especiales2>a>img{
+        border-radius: 25px;
+    }
+    .vestidos-especiales2>a>h1{
+        font-size:calc(1vw + 10px);
+        padding-left: 10px;
+        padding-top: 10px;
+        color:white;
+        text-shadow:2px 2px 12px black;
+    }
+    .vestidos-especiales2>a>p{
+        font-size:calc(1vw + 9px);
+        padding-left: 10px;
+        box-shadow: 5px 10px 15px black;
+        border:1px solid white;
+        color:black;
+    }
+    
+    /* flechas */
+
+    .flechas-diseños-especiales2{
+        position:relative;
+        top:-12cm;
+        height:2cm;
+        width:100%;
+    }
+
+    /*USED*/
+    .flechas-diseños-especiales2>li{
+        position:relative;
+        width:8.5cm;
+        margin:auto;
+    }
+    /*USED*/
+    .flecha-derecha-especiales2{
+        position:absolute;
+        right:0cm;
+    }
+    /*USED*/
+    .flecha-izquierda-especiales2{
+        position:absolute;
+        left:0cm;
+    }
+
+    .flechas-diseños-especiales2>li>i{
+        padding:20px;
+        font-size: 25px;
+        background:rgba(105, 49, 122, 0.603);
+        border: 2px solid white;
+        color:white;
+        cursor: pointer;
+    }
+}
+
+
+@media all and (max-width:400px){
+
+    .vestidos-especiales2>a>img{
+        width:4.5cm;
+        height: 9cm;
+    }
+    .diseños-especiales-container2{
+        top:1cm;
+        height:15.6cm;
+        margin-bottom:-2cm;
+    }
+    .slider-ropa-especial2{
+        width:4.5cm;
+    }
+    .vestidos-especiales2>a>h1{
+        font-size:calc(1vw + 13px);
+    }
+    .vestidos-especiales2>a>p{
+        font-size:calc(1vw + 11px);
+    }
+
+    /*FLECHAS*/
+
+    .flechas-diseños-especiales2>li>i{
+        padding:5px;
+        font-size: 20px;
+    }
+    .flechas-diseños-especiales2{
+        top:-9cm;
+    }
+    /*USED*/
+    .flechas-diseños-especiales2>li{
+        width:5cm;
+    }
+    /*USED*/
+    .flecha-derecha-especiales2{
+        right:0cm;
+    }
+    /*USED*/
+    .flecha-izquierda-especiales2{
+        left:0cm;
+    }
+
+}
